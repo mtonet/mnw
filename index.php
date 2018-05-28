@@ -33,7 +33,7 @@
                 <div class="slogan1">
                     <h1>Construindo sua<br><b>presença digital</b></h1>
                     <img src="img/hr-pq.jpg">
-                    <h2>Algumas de nossas soluções</h2>
+                    <h2>Algumas de nossas soluções teste</h2>
                 </div>
                 <div class="slogan2">
                     <img src="img/slogan-img1.jpg">

@@ -1,0 +1,246 @@
+
+/*---------------css comum para todas as páginas---------------*/
+
+body { margin:0 auto; background:url(../img/bg-menu.jpg) repeat-x 0 0; font-family: Helvetica, Arial; font-weight:normal; background-color:#f8f8f8;}
+
+.container { width:990px; margin:0 auto;}
+
+img { border:0;}
+
+h1 { font-size:33px; font-weight:normal; color:#384248;}
+
+h2 {font-size:19px; font-weight:normal; color:#384248;}
+
+h3 {font-size:16px; font-weight:bold; color:#384248;}
+
+.menu { background:url(../img/bg-menu.jpg) repeat-x 0 0; height:52px; font-size:12px;}
+
+#navigation ul {	list-style: none; margin: 0; padding:0;}
+	
+#navigation li {float: left; margin:0; text-align:center; background:url(../img/border.jpg) no-repeat right 0;}
+
+#navigation li a {color: #efefef; font-weight: bold; text-decoration: none;  display:block; }
+
+#navigation li a:hover { background-color:#2a3033; background-image:url(../img/border.jpg); background-repeat:no-repeat; background-position: right 0;}
+	
+#navigation #currentpage a { background-color:#2a3033; background-image:url(../img/border.jpg); background-repeat:no-repeat; background-position: right 0; }
+
+#navigation li.li1 a { width:175px; padding-top:14px; height:37px; }
+
+#navigation li.li2 a { width:115px; padding-top:21px; height:30px; }
+
+#navigation li.li3 a { width:135px; padding-top:21px; height:30px;  }
+
+#navigation li.li4 a { width:130px; padding-top:21px; height:30px;  }
+
+#navigation li.li5 a { width:85px; padding-top:21px; height:30px;  }
+
+#navigation li.li6 a { width:85px; padding-top:21px; height:30px;  }
+
+#navigation li.li7 a { width:85px; padding-top:21px; height:30px;  }
+
+#navigation li.li8 a { width:60px; padding-top:16px; height:35px;  }
+
+#navigation li.li9 a { width:60px;padding-top:16px; height:35px;  }
+
+#navigation li.li10 a { width:60px; padding-top:16px; height:35px;  }
+
+#navigation li.li10 { background:none;}
+
+#navigation li.li10 a:hover { background-color:#2a3033; background-image:none;}
+
+.top-internas { padding:20px 0 0 20px;}
+
+.top-internas h1 { font-family:Helvetica, Arial; font-size:32px; color:#c6222b; padding:0; margin:0;}
+
+.top-internas h1.contato { font-family:Helvetica, Arial; font-size:34px; color:#384248; padding:0 0 10px 0; margin:0;}
+
+.top-internas h3 { font-family:Helvetica, Arial; padding:10px 0 15px 0; margin:0; font-weight:normal;}
+
+.breadcrumbs h2 { font-size:14px; font-weight:normal; font-family:Helvetica, Arial; padding:15px 0 3px 20px; margin:0px;}
+
+.breadcrumbs h2 span { font-size:19px; font-weight:bold;}
+
+/*---------------Final css comum para todas as páginas---------------*/
+
+/*---------------Home---------------*/
+
+.main-slogan { padding-top:40px; height:450px;}
+
+.slogan1 { width:210px; padding:50px 0 0 20px; float:left;}
+
+.slogan1 h1 { font-size:33px; font-weight:normal; color:#c6222b; margin:0px; padding-bottom:7px;}
+
+.slogan1 h2 { font-size:18px; font-weight:normal; color:#384248; margin:0px; padding-top:12px; line-height:25px;}
+
+.slogan2 { float:left; padding:0 30px 0 15px;}
+
+.slogan3 { float:left; padding-right:30px;}
+
+.slogan4 { width:222px; float:left;}
+
+.slogan4 img { margin-bottom:15px;}
+
+.resume {background: url(../img/bg-resume.png) no-repeat 25px 60px; padding-left:20px; }
+
+.resume h3 { font-size:30px; color:#384248; font-weight:normal; width:450px; margin:0; padding: 40px 0 0 395px; }
+
+.resume h4 { font-size:18px; color:#384248; font-weight:normal; margin: 20px 0 18px 395px; line-height:28px;} 
+
+.resume div { padding:0 0 45px 395px;}
+
+.destaque { padding-left:20px; height:470px; background:url(../img/bg-destaque.jpg) no-repeat 18px 70px;}
+
+.txt-destaque { color:#384248; padding:75px 0 0 35px; }
+
+.txt-destaque h1 { width:177px; font-size:35px; font-weight:normal; margin:0px; }
+
+.txt-destaque p { width:177px; font-size:18px; margin:0; padding-top:15px; line-height:25px;}
+
+.txt-destaque p.nome-destaque { margin:70px 0px 0px 240px;; color:#fff; font-size:25px;}
+
+.txt-destaque img { margin-top:50px;}
+
+.outros {  padding-left:20px;}
+
+.outros h1 { margin:0; padding:0 0 18px 30px;}
+
+.outros div.left { width:301px; float:left; padding-right:23px;}
+
+.outros div.center { width:301px; float:left; padding-right:23px;}
+
+.outros img { padding-bottom:23px;}
+
+.outros img.hr0 { padding-bottom:16px;}
+
+/*---------------Fim Home---------------*/
+
+/*---------------Maonaweb---------------*/
+
+.maonaweb { padding:0 0 0 20px;}
+
+.maonaweb1 { background:url(../img/digital.jpg) no-repeat 40px 40px; height:430px; padding-top:25px;}
+
+.maonaweb1 p { width:570px; float:right; margin: 0 20px 30px 0; line-height:28px; color:#384248;}
+
+.maonaweb1 p.last { position:relative;}
+
+.maonaweb p.last img.presenca { position:absolute; top:30px; left:175px;}
+
+.maonaweb2 { padding:40px 0 0 20px; width:96%;}
+
+.maonaweb2 p { font-size:14px; color:#384248; line-height:30px;}
+
+.txt-maonaweb2 { width:420px; float:left;}
+
+.txt-maonaweb3 { width:455px; margin-left:420px; padding:0 0 0 40px;}
+
+.txt-maonaweb3 div.left { width:220px;  float:left; background:url(../img/bg-mnw-1.jpg) no-repeat 0 0;}
+
+.txt-maonaweb3 h3 { margin:0; padding:110px 0 15px 0; font-size:19px; font-weight:normal;}
+
+.txt-maonaweb3 h4 { margin:0; padding:10px 0 8px 0; font-size:14px; font-weight:100; color:#384248; line-height:18px;}
+
+.txt-maonaweb3 a { font-size:11px; color:#3187b8; text-decoration:none;}
+
+.txt-maonaweb3 div.right { width:220px;  margin-left:250px; background:url(../img/bg-mnw-2.jpg) no-repeat 0 0;}
+
+.maonaweb2 h1 {  font-family:Helvetica, Arial; font-size:32px; color:#c6222b; padding:0; margin:0;}
+
+.maonaweb2 h2 {  font-family:Helvetica, Arial; font-size:18px; color:#384248; padding:15px 0 15px 0; margin:0;}
+
+/*---------------Fim Maonaweb---------------*/
+
+/*---------------Desenvolvimento---------------*/
+
+.desenvolvimento { padding:0 0 0 20px;}
+
+.desenvolvimento ul { width:98%; margin:0px; padding:50px 0 0 0;}
+
+.desenvolvimento ul li { width:234px; height:300px; list-style:none; float:left; display:inline-block; margin-bottom:30px;}
+
+.desenvolvimento ul li h4 { text-align:center; font-family:Helvetica, Arial; font-size:18px; color:#384248; padding:110px 0 0 0;}
+
+.desenvolvimento ul li h5 { text-align:center justify; font-family:Helvetica, Arial; font-size:14px; font-weight:100; color:#384248; padding:0 0 8px 12px; margin:0;}
+
+.desenvolvimento ul li a { font-family:Helvetica, Arial; font-size:12px; color:#3187b8; text-decoration:none; padding:0 0 0 12px;}
+
+.desenvolvimento ul li:first-child { background: url(../img/bg-desenv-1.jpg) no-repeat 50% 20px;}
+
+.desenvolvimento ul li.li1 {background: url(../img/bg-desenv-2.jpg) no-repeat center 20px;}
+
+.desenvolvimento ul li.li2 {background: url(../img/bg-desenv-3.jpg) no-repeat center 20px;}
+
+.desenvolvimento ul li.li3 {background: url(../img/bg-desenv-4.jpg) no-repeat center 20px;}
+
+.desenvolvimento ul li.li4 {background: url(../img/bg-desenv-5.jpg) no-repeat center 50px; margin-bottom:0px;}
+
+.desenvolvimento ul li.li5 {background: url(../img/bg-desenv-6.jpg) no-repeat center 50px; margin-bottom:0px;}
+
+.desenvolvimento ul li:last-child { background: url(../img/bg-desenv-7.jpg) no-repeat center 20px; margin-bottom:0px;}
+
+
+/*---------------Fim Desenvolvimento---------------*/
+
+/*---------------Estratégia---------------*/
+
+.estrategia { padding:0 0 0 20px;}
+
+.estrategia ul { width:98%; margin:0px; padding:50px 0 0 0;}
+
+.estrategia ul li { width:234px; height:300px; list-style:none; float:left; display:inline-block; margin-bottom:30px;}
+
+.estrategia ul li h4 { text-align:center; font-family:Helvetica, Arial; font-size:18px; color:#384248; padding:110px 0 0 0;}
+
+.estrategia ul li h5 { text-align:center justify; font-family:Helvetica, Arial; font-size:14px; font-weight:100; color:#384248; padding:0 0 8px 12px; margin:0;}
+
+.estrategia ul li a { font-family:Helvetica, Arial; font-size:12px; color:#3187b8; text-decoration:none; padding:0 0 0 12px;}
+
+.estrategia ul li:first-child { background: url(../img/bg-estrat-1.jpg) no-repeat 50% 20px;}
+
+.estrategia ul li.li1 {background: url(../img/bg-estrat-2.jpg) no-repeat center 20px;}
+
+.estrategia ul li.li2 {background: url(../img/bg-estrat-3.jpg) no-repeat center 20px;}
+
+.estrategia ul li.li3 {background: url(../img/bg-estrat-4.jpg) no-repeat center 20px;}
+
+.estrategia ul li.li4 {background: url(../img/bg-estrat-5.jpg) no-repeat center 50px; margin-bottom:0px;}
+
+.estrategia ul li:last-child { background: url(../img/bg-estrat-6.jpg) no-repeat center 20px; margin-bottom:0px;}
+
+
+/*---------------Fim Estratégia---------------*/
+
+
+/*---------------Contato---------------*/
+
+.mapa { width:946px; height:400px; margin:20px 0 0 0; border:1px solid #999;}
+
+/*---------------Fim Contato---------------*/
+
+/*---------------Footer---------------*/
+
+footer { padding: 20px 0 25px 20px; }
+
+footer h1 { margin:0; padding:10px 0 0 0; text-align:center; font-weight:normal; font-size:20px;}
+
+footer h1 a { font-weight:bold; color:#3187b8; font-size:19px; text-decoration:none;}
+
+footer a:hover { text-decoration:underline;}
+
+footer h2 { padding:5px 0 8px 20px;}
+
+footer h3 { padding:0 0 0 20px;}
+
+footer h3 span.tel { font-weight:normal;}
+
+footer h3 a { text-decoration:none; color:#3187b8; font-weight:normal;}
+
+footer h4 { margin:0; padding:10px 0 0 20px; font-size:11px; color:#414b51; font-weight:normal;}
+
+/*---------------Fim Footer---------------*/
+
+
+	
+
+
